@@ -16,6 +16,3 @@ COPY . .
 
 # Exposer les ports
 EXPOSE 9000 7001
-
-# Commande par défaut
-CMD ["npm", "run", "dev"]

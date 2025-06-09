@@ -1,4 +1,4 @@
-# Initialisation du projet MedusaJS + Frontend
+# Projet e-commerce MedusaJS + Frontend Next.js
 
 Ce projet repose sur deux services :
 
@@ -9,7 +9,7 @@ Ce projet repose sur deux services :
 
 ### Backend (`./backend/.env`)
 
-Crée un fichier `.env` dans le dossier `backend` avec :
+Crée un fichier `.env` en copiant le `.env.template` dans le dossier `backend` avec :
 
 ```env
 DATABASE_URL=postgres://medusa_user:medusa_password@postgres:5432/medusa_db
@@ -21,7 +21,7 @@ DATABASE_URL=postgres://medusa_user:medusa_password@postgres:5432/medusa_db
 
 ### Frontend (`./frontend/.env`)
 
-Crée un fichier `.env` dans le dossier `frontend` avec :
+Crée un fichier `.env` en copiant le `.env.template` dans le dossier `frontend` avec :
 
 ```env
 MEDUSA_BACKEND_URL=http://localhost:9000
